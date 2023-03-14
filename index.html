@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Snake Game</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <div id="ingame_messages">
+                <p id="message">Press 'Space' to start</p>
+            </div>
+        </header>
+
+        <main id="game_screen" class="centralize">
+            <h1 id="score_text">Score: <h1 id="score">0</h1></h1>
+            <table id="game_board">
+            </table>
+        </main>
+
+        <script src="js/event.js"></script>
+        <script src="js/randomize.js"></script>
+        <script src="js/vector2.js"></script>
+        <script src="js/snake.js"></script>
+        <script src="js/direction.js"></script> 
+
+        <script src="js/setupBoard.js"></script>
+        <script src="js/matrixController.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/hitbox.js"></script>
+        <script src="js/player.js"></script>
+    </body>
+
+</html>
